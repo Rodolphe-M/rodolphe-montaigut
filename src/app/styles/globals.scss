@@ -10,6 +10,8 @@
 @import '../styles/2-components/socialLink.scss';
 @import '../styles/2-components/skill.scss';
 @import '../styles/2-components/footer.scss';
+@import '../styles/2-components/form.scss';
+@import '../styles/2-components/card.scss';
 
 // 3 - PAGES
 
@@ -26,9 +28,15 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
     background-color: #292929;
+    font-family: 'Lexend', sans-serif;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+}
+
+h2 {
+    font-size: 48px;
+    color: antiquewhite;
 }

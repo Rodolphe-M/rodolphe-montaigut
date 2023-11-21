@@ -15,6 +15,7 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: no-wrap;
+    margin-top: 60px;
     &__text {
         @include center;
         width: 60%;
@@ -36,5 +37,32 @@
             border-radius: 30%;
             border: solid 2px $main-color;
         }
+    }
+}
+
+.skill-container {
+    width: 100%;
+    height: fit-content;
+}
+
+.form-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.projet-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        margin-bottom: 60px;
     }
 }
