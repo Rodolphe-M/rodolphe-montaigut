@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1840px;
+    margin: auto;
+}
+
+.intro {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: no-wrap;
+    &__text {
+        @include center;
+        width: 60%;
+        height: fit-content;
+        img {
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+    }
+    &__photo {
+        width: 40%;
+        height: fit-content;
+        @include center;
+        img {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            border-radius: 30%;
+            border: solid 2px $main-color;
+        }
+    }
+}
