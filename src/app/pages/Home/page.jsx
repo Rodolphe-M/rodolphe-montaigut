@@ -15,6 +15,7 @@ import agileLogo from '../../../../public/agile.png'
 import expressLogo from '../../../../public/express.svg'
 import nodeLogo from '../../../../public/node.svg'
 import sassLogo from '../../../../public/sass.svg'
+import data from '../../utils/data.json'
 
 const Home = () => {
     return (
@@ -32,9 +33,7 @@ const Home = () => {
             </div>
             <div className="projet-container">
                 <h2>Projets</h2>
-                <div className="carrousel-card">
-                    <Card />
-                </div>
+                <Card data={data} />
             </div>
             <div className="skill-container">
                 <div className="skill">
