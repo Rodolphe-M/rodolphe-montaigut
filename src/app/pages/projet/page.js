@@ -1,5 +1,5 @@
 'use client'
-import Home from './components/Home'
+import Projet from './components/Projet'
 import { Lexend, Kalam } from 'next/font/google'
 
 export const lexand = Lexend({
@@ -14,5 +14,5 @@ export const kalam = Kalam({
 })
 
 export default function Page() {
-    return <Home />
+    return <Projet />
 }

@@ -12,10 +12,10 @@ const Header = () => {
                 </Link>
             </div>
             <div className="navbar__link">
-                <Link href="/">Projets</Link>
-                <Link href="/">Compétences</Link>
-                <Link href="/">À Propos</Link>
-                <Link href="/">Contact</Link>
+                <Link href="/projet">Projets</Link>
+                <Link href="/#anker-skill">Compétences</Link>
+                <Link href="/#anker-about">À Propos</Link>
+                <Link href="/#anker-form">Contact</Link>
             </div>
         </nav>
     )

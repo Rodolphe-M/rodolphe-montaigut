@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Skill from '../../components/Skill'
-import Form from '../../components/Form'
-import Card from '../../components/Card'
+import Skill from '../Skill'
+import Form from '../Form'
+import Card from '../Card'
 import logoHome from '../../../../public/logo-home.svg'
 import photoHome from '../../../../public/photo.jpg'
 import htmlLogo from '../../../../public/html5.svg'
@@ -31,11 +31,11 @@ const Home = () => {
                     <Image src={photoHome} alt="photo de Rodolphe Montaigut" />
                 </div>
             </div>
-            <div className="projet-container">
+            <div id="anker-projet" className="projet-container">
                 <h2>Projets</h2>
                 <Card data={data} />
             </div>
-            <div className="skill-container">
+            <div id="anker-skill" className="skill-container">
                 <div className="skill">
                     <div className="skill__title">
                         <h2>Compétences</h2>
@@ -78,7 +78,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="form-container">
+            <div id="anker-about" className="about-container">
+                <h2>À propos</h2>
+            </div>
+            <div id="anker-form" className="form-container">
                 <div className="form">
                     <h2>Formulaire de contact</h2>
                     <Form />
