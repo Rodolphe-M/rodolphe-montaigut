@@ -11,7 +11,7 @@ const Card = ({ data }) => {
                 // Création d'une clé unique (ici, l'ID du projet)
                 <div key={projet.id} className="cards-wrapper">
                     {/* Lien vers la page détaillée du projet */}
-                    <Link href={`/projet/${projet.id}`}>
+                    <Link href="/projet/[id]" as={`/projet/${projet.id}`}>
                         <div className="cards">
                             <Image
                                 className="cards__img"

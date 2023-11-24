@@ -1,16 +1,18 @@
-'use client'
-import React, { useParams } from 'react'
-import Link from 'next/link'
+// src/app/components/Projet/index.jsx
+import React from 'react'
 import data from '../../utils/data.json'
 
-// Définition du composant "Projet"
 const Projet = () => {
-    const { id } = useParams()
-    // Recherche du logement correspondant à l'ID dans les données
-    const projet = data.find((projet) => projet.id === id)
+    // Déstructuration pour extraire la propriété projet
+    const { projet } = data
+
+    // Vérifier si le projet existe
+    if (!projet) {
+        return <div className="unfound">Projet non trouvé</div>
+    }
 
     return (
-        <div className="container-projet">
+        <div className="page-projet">
             <div className="projet">
                 <div className="projet__title">
                     <h2>{projet.title}</h2>
@@ -23,11 +25,13 @@ const Projet = () => {
                     </div>
                     <div className="projet-button">
                         {/* Utilisez Link pour naviguer vers la page GitHub */}
-                        <Link href={projet.lien}>
-                            <a target="_blank" rel="noopener noreferrer">
-                                <button type="button">Github du projet</button>
-                            </a>
-                        </Link>
+                        <a
+                            href={projet.lien}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button type="button">Github du projet</button>
+                        </a>
                     </div>
                 </div>
             </div>
