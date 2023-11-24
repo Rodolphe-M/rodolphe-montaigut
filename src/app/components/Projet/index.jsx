@@ -1,21 +1,13 @@
-import React from 'react'
-import { useRouter } from 'next/router'
+'use client'
+import React, { useParams } from 'react'
 import Link from 'next/link'
+import data from '../../utils/data.json'
 
-const Projet = ({ data }) => {
-    // Récupération des paramètres de l'URL (l'ID du projet)
-    const router = useRouter()
-    const { id } = router.query
-
-    // Recherche du projet correspondant à l'ID dans les données
+// Définition du composant "Projet"
+const Projet = () => {
+    const { id } = useParams()
+    // Recherche du logement correspondant à l'ID dans les données
     const projet = data.find((projet) => projet.id === id)
-
-    // Si aucun projet n'est trouvé avec l'ID redirection vers la page d'erreur
-    if (!projet) {
-        // Utilisez la méthode push du router pour effectuer la redirection
-        router.push('/Error')
-        return null // Retournez null pour éviter le rendu de la page actuelle
-    }
 
     return (
         <div className="container-projet">

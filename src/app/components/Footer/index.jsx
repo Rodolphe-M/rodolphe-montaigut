@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialLink from '../../components/SocialLink'
+import SocialLink from '../SocialLink'
 import githubLogo from '../../../../public/github.svg'
 import linkedinLogo from '../../../../public/linkedin.svg'
 import whatsappLogo from '../../../../public/whatsapp.svg'
