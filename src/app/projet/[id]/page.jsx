@@ -1,7 +1,11 @@
 'use client'
 import React from 'react'
 import Projet from '../../components/Projet/index'
+import data from '../../utils/data.json'
 
-export default function Page({ data }) {
-    return <Projet data={data} />
+function Page({ pageProps }) {
+    console.log(pageProps)
+    return <Projet {...pageProps} />
 }
+
+export default Page

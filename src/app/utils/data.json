@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "title": "Kasa",
         "cover": "/cover/kasa.png",
         "description": "Créez une application web de location immobilière avec React. Utiliser des composants réutilisables, mettre en place le routage entre les pages.",
@@ -9,7 +9,7 @@
         "lien": "https://github.com/Rodolphe-M/Kasa"
     },
     {
-        "id": "2",
+        "id": 2,
         "title": "Sophie Buel",
         "cover": "/cover/sophie.png",
         "description": "Créez une page web dynamique avec JavaScript. Gestion de fenêtres modales pour gérer la connexion, l'ajout et la suppréssion de projet en mode admin.",
@@ -18,7 +18,7 @@
         "lien": "https://github.com/Rodolphe-M/Sophie-Buel"
     },
     {
-        "id": "3",
+        "id": 3,
         "title": "Booki",
         "cover": "/cover/booki.png",
         "description": "Créez la page d'acceuil d'une agence de voyage avec HTML et CSS. Intégrer la maquette FIGMA de manière responsive",
@@ -27,7 +27,7 @@
         "lien": "https://github.com/Rodolphe-M/Booki"
     },
     {
-        "id": "4",
+        "id": 4,
         "title": "Nina Carducci",
         "cover": "/cover/nina.png",
         "description": "Débugger et optimiser le site d'un photographe. Améliorer l'accéssibilité, les performances et mettre en place le SEO et le référencement local.",
@@ -36,10 +36,10 @@
         "lien": "https://github.com/Rodolphe-M/Nina-Carducci"
     },
     {
-        "id": "5",
+        "id": 5,
         "title": "Mon vieux grimoire",
         "cover": "/cover/grimoire.png",
-        "description": "Un jeu classique de mémoire pour exercer votre cerveau.",
+        "description": "Développer le Backend d'un site de notation de livres. Implémenter l'inscription utilisateur, la base de données et l'optimisation des images.",
         "competences": ["Node", "Mongo DB", "Express"],
         "photos": [],
         "lien": "https://github.com/Rodolphe-M/Mon-vieux-grimoire"
