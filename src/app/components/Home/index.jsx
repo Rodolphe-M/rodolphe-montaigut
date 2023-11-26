@@ -112,26 +112,28 @@ const Home = () => {
                             front-end junior, basé sur Toulon.
                         </p>
                         <p>
-                            J'ai entrepris une reconversion à travers le
-                            parcours d'OpenClassrooms. Actuellement, je suis à
-                            la recherche d'une opportunité au sein d'une
-                            entreprise dynamique où je pourrais allier ma
-                            créativité à ma passion pour la technologie. Mon
-                            objectif est de contribuer à la création de produits
-                            web innovants tout en continuant à perfectionner mes
-                            compétences au sein d'une équipe collaborative.
+                            J&quot;ai entrepris une reconversion à travers le
+                            parcours d&quot;OpenClassrooms. Actuellement, je
+                            suis à la recherche d&quot;une opportunité au sein
+                            d&quot;une entreprise dynamique où je pourrais
+                            allier ma créativité à ma passion pour la
+                            technologie. Mon objectif est de contribuer à la
+                            création de produits web innovants tout en
+                            continuant à perfectionner mes compétences au sein
+                            d&quot;une équipe collaborative.
                         </p>
                         <p>
-                            À côté de cela, j'apprécie tout particulièrement le
-                            sport et les voyages. Si vous me cherchez en dehors
-                            du travail, il y a de fortes chances pour que je
-                            sois en mer, en train de faire du bateau ou de
-                            pratiquer le kite, le surf, ou le wing-foil.
+                            À côté de cela, j&quot;apprécie tout
+                            particulièrement le sport et les voyages. Si vous me
+                            cherchez en dehors du travail, il y a de fortes
+                            chances pour que je sois en mer, en train de faire
+                            du bateau ou de pratiquer le kite, le surf, ou le
+                            wing-foil.
                         </p>
                         <p>
                             Pour toutes questions, propositions de projets.
-                            N'hésitez pas à me contacter à l'aide du formulaire
-                            en bas de la page.
+                            N&quot;hésitez pas à me contacter à l&quot;aide du
+                            formulaire en bas de la page.
                         </p>
                     </div>
                 </div>
