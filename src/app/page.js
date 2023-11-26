@@ -13,8 +13,8 @@ export const kalam = Kalam({
     weight: '400',
 })
 
-function MyApp({ pageProps }) {
-    return <Home {...pageProps} />
+function MyApp() {
+    return <Home />
 }
 
 export default MyApp

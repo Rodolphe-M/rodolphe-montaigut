@@ -55,3 +55,76 @@
         @include cardSkill;
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .skill {
+        &__title {
+            margin-bottom: 30px;
+        }
+        height: fit-content;
+    }
+
+    .card__skill {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        h3 {
+            margin: 15px 0 20px 0;
+        }
+        img {
+            width: 40px;
+            height: auto;
+            margin: 5px;
+        }
+    }
+
+    .skill__tech {
+        width: 95%;
+        height: auto;
+    }
+
+    .skill__framework {
+        width: 95%;
+        height: auto;
+    }
+
+    .skill__soft {
+        width: 95%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 767.02px) and (max-width: 1140px) {
+    .card__skill {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        h3 {
+            margin: 15px 0 20px 0;
+        }
+        img {
+            width: 2rem;
+            height: auto;
+            margin: 7px;
+        }
+    }
+
+    .skill__tech {
+        width: 95%;
+        height: auto;
+    }
+
+    .skill__framework {
+        width: 95%;
+        height: auto;
+    }
+
+    .skill__soft {
+        width: 95%;
+        height: auto;
+    }
+}

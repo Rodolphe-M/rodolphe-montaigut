@@ -58,3 +58,19 @@
 .cards:hover {
     transform: scale(1.05);
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .cards-container {
+        width: 90%;
+        height: fit-content;
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards:hover {
+        transform: none;
+    }
+}

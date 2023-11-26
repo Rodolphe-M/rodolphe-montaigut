@@ -46,6 +46,7 @@
         align-items: center;
         border: solid 2px $secondary-color;
         border-radius: 20px;
+        padding: 10px;
         h3 {
             margin: 20px 5px 30px 5px;
         }
@@ -55,11 +56,12 @@
         }
         li {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             width: 100%;
             text-align: center;
-            margin: 10px 10px 10px 10px;
+            margin: 5px;
             padding: 10px;
             border-radius: 20px;
             border: solid 2px $secondary-color;
@@ -94,4 +96,54 @@ button:hover {
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .projet-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .projet {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &__description {
+            width: 85%;
+            height: fit-content;
+            margin-bottom: 40px;
+            p {
+                width: 90%;
+                margin-bottom: 20px;
+                padding: 20px;
+                font-size: 1.2rem;
+            }
+        }
+        &__comp {
+            width: 85%;
+            height: fit-content;
+            margin-bottom: 40px;
+            h3 {
+                margin: 20px 5px 30px 5px;
+            }
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+        &__button {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
