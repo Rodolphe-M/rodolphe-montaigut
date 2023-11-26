@@ -1,7 +1,7 @@
 import './styles/globals.scss'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { Lexend, Kalam } from 'next/font/google'
+import localFont from 'next/font/local'
 
 export const metadata = {
     title: 'Rodolphe Portfolio',
@@ -13,20 +13,15 @@ export const metadata = {
     creator: 'Rodolphe Montaigut',
 }
 
-export const lexend = Lexend({
-    subsets: ['latin'],
+// Font files can be colocated inside of `app`
+const myFont = localFont({
+    src: './Lexend-Regular.ttf',
     display: 'swap',
-})
-
-export const kalam = Kalam({
-    subsets: ['latin'],
-    display: 'swap',
-    weight: '400',
 })
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="fr">
+        <html lang="fr" className={myFont.className}>
             <Header />
             <main>{children}</main>
             <Footer />
