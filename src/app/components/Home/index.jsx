@@ -112,18 +112,18 @@ const Home = () => {
                             front-end junior, basé sur Toulon.
                         </p>
                         <p>
-                            J&quot;ai entrepris une reconversion à travers le
-                            parcours d&quot;OpenClassrooms. Actuellement, je
-                            suis à la recherche d&quot;une opportunité au sein
-                            d&quot;une entreprise dynamique où je pourrais
+                            J&apos;ai entrepris une reconversion à travers le
+                            parcours d&apos;OpenClassrooms. Actuellement, je
+                            suis à la recherche d&apos;une opportunité au sein
+                            d&apos;une entreprise dynamique où je pourrais
                             allier ma créativité à ma passion pour la
                             technologie. Mon objectif est de contribuer à la
                             création de produits web innovants tout en
                             continuant à perfectionner mes compétences au sein
-                            d&quot;une équipe collaborative.
+                            d&apos;une équipe collaborative.
                         </p>
                         <p>
-                            À côté de cela, j&quot;apprécie tout
+                            À côté de cela, j&apos;apprécie tout
                             particulièrement le sport et les voyages. Si vous me
                             cherchez en dehors du travail, il y a de fortes
                             chances pour que je sois en mer, en train de faire
@@ -132,7 +132,7 @@ const Home = () => {
                         </p>
                         <p>
                             Pour toutes questions, propositions de projets.
-                            N&quot;hésitez pas à me contacter à l&quot;aide du
+                            N&apos;hésitez pas à me contacter à l&apos;aide du
                             formulaire en bas de la page.
                         </p>
                     </div>
