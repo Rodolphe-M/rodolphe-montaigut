@@ -1,6 +1,7 @@
 import './styles/globals.scss'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import { Lexend, Kalam } from 'next/font/google'
 
 export const metadata = {
     title: 'Rodolphe Portfolio',
@@ -11,6 +12,17 @@ export const metadata = {
     ],
     creator: 'Rodolphe Montaigut',
 }
+
+export const lexend = Lexend({
+    subsets: ['latin'],
+    display: 'swap',
+})
+
+export const kalam = Kalam({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: '400',
+})
 
 export default function RootLayout({ children }) {
     return (
